@@ -1,0 +1,39 @@
+﻿@model MunicipeModel
+@{
+	ViewData["title"] = "Excluir Municipe";
+}
+
+<div class="container bg-dark p-5 rounded-5">
+
+	<div class="mb-5 text-center">
+		<h1 class="text-light">Excluir Munícipe</h1>
+	</div>
+
+	<form method="post" asp-controller="Municipe" asp-action="Excluir">
+		<input type="hidden" asp-for="Id" />
+		<div class="form-group">
+			<label for="Municipe" class="text-light">Nome</label>
+			<input type="text" class="form-control" asp-for="Nome" disabled id="Nome" aria-describedby="nome" placeholder="Informe seu nome" />
+			<span class="text-danger" asp-validation-for="Nome"></span>
+		</div>
+		<div class="form-group">
+			<label for="Fornecedor" class="text-light">Endereço</label>
+			<input type="text" class="form-control" asp-for="Endereco" disabled id="Endereco" aria-describedby="endereco" placeholder="Informe seu endereço" />
+			<span class="text-danger" asp-validation-for="Endereco"></span>
+		</div>
+		<div class="form-group">
+			<label for="Livro" class="text-light">Telefone</label>
+			<input type="text" class="form-control" asp-for="Telefone" disabled id="Telefone" placeholder="Informe seu telefone" />
+			<span class="text-danger" asp-validation-for="Telefone"></span>
+		</div>
+		<div class="form-group">
+			<label for="Livro" class="text-light">Email</label>
+			<input type="text" class="form-control" asp-for="Email" disabled id="Email" placeholder="Informe seu email" />
+			<span class="text-danger" asp-validation-for="Email"></span>
+		</div>
+		<div class="d-flex gap-5 mt-5">
+			<button type="submit" class="btn btn-success w-50">Enviar</button>
+			<a class="btn btn-primary w-50" asp-controller="Municipe" asp-action="Index">Voltar</a>
+		</div>
+	</form>
+</div>
