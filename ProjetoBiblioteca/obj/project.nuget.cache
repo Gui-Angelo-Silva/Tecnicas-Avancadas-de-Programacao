@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "L1t7OuQ/GhqqvbhlJ21r7MeyVZGAHOgncacDytj8SoRQhQZ7krwzq873HJrv3gi0fMsPR3vKdz7gWldQDbAe4Q==",
+  "dgSpecHash": "IIUabc2LvmbmfZfex+ba4/UAaLgEM7H2CSOxYsDnVP4NLq05xqHeqxhOaOJFQRLOXUkEVgXeZfu9BcdDLkIu6g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Aluno\\Documents\\Aula-CSharp-Faculdade\\Biblioteca.csproj",
+  "projectFilePath": "C:\\Users\\Aluno\\Documents\\Tecnicas-Avancadas-de-Programacao\\ProjetoBiblioteca\\Biblioteca.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aluno\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Aluno\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

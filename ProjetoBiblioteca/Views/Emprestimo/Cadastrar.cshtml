@@ -8,7 +8,7 @@
 		<h1 class="text-light">Cadastro de Empréstimos</h1>
 	</div>
 
-	<form>
+	<form method="post" asp-controller="Emprestimo" asp-action="Cadastrar">
 		<div class="form-group">
 			<label for="Recebedor" class="text-light">Endereço de email</label>
 			<input type="text" class="form-control" asp-for="Recebedor" id="Recebedor" aria-describedby="emailHelp" placeholder="Quem recebeu o livro?"/>

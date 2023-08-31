@@ -19,6 +19,11 @@ namespace Biblioteca.Controllers
             return View(emprestimo);
         }
 
+        public IActionResult Cadastrar()
+        {
+            return View();
+        }
+
         [HttpPost]
         public IActionResult Cadastrar(EmprestimoModel emprestimos)
         {
