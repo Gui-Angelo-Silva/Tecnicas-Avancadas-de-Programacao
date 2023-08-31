@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lIqEbZBcmsaQtcSFBvbjhAS96IHfjqoJhXz52LNBZxK20KUBkA5+gQK1jSzQBhfxkSfrNXJujQP/1gHl0JxICg==",
+  "dgSpecHash": "Z3I0RlR1htdB4BjtRhcTGcC2yBdWWqNQK3IvG4p7MtUvI7H4oLpYdD5mkBlu5bEjRihGokEnvXVf6Bh/40RD7w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Aluno\\Documents\\AtividadeCRUDCsharp\\AtividadeCRUDCsharp.csproj",
+  "projectFilePath": "C:\\Users\\Aluno\\Documents\\Tecnicas-Avancadas-de-Programacao\\AtividadeCRUDCsharp\\AtividadeCRUDCsharp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Aluno\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\Aluno\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

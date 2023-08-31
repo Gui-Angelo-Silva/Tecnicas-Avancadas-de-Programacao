@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Aluno\\Documents\\AtividadeCRUDCsharp\\AtividadeCRUDCsharp.csproj": {}
+    "C:\\Users\\Aluno\\Documents\\Tecnicas-Avancadas-de-Programacao\\AtividadeCRUDCsharp\\AtividadeCRUDCsharp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Aluno\\Documents\\AtividadeCRUDCsharp\\AtividadeCRUDCsharp.csproj": {
+    "C:\\Users\\Aluno\\Documents\\Tecnicas-Avancadas-de-Programacao\\AtividadeCRUDCsharp\\AtividadeCRUDCsharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Aluno\\Documents\\AtividadeCRUDCsharp\\AtividadeCRUDCsharp.csproj",
+        "projectUniqueName": "C:\\Users\\Aluno\\Documents\\Tecnicas-Avancadas-de-Programacao\\AtividadeCRUDCsharp\\AtividadeCRUDCsharp.csproj",
         "projectName": "AtividadeCRUDCsharp",
-        "projectPath": "C:\\Users\\Aluno\\Documents\\AtividadeCRUDCsharp\\AtividadeCRUDCsharp.csproj",
+        "projectPath": "C:\\Users\\Aluno\\Documents\\Tecnicas-Avancadas-de-Programacao\\AtividadeCRUDCsharp\\AtividadeCRUDCsharp.csproj",
         "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Aluno\\Documents\\AtividadeCRUDCsharp\\obj\\",
+        "outputPath": "C:\\Users\\Aluno\\Documents\\Tecnicas-Avancadas-de-Programacao\\AtividadeCRUDCsharp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
