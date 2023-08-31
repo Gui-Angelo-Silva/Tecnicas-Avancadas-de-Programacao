@@ -1,0 +1,34 @@
+﻿@model EmprestimoModel
+@{
+    ViewData["title"] = "Editar Empréstimo";
+}
+
+<div class="container bg-dark p-5 rounded-5">
+
+    <div class="mb-5 text-center">
+        <h1 class="text-light">Editar Empréstimos</h1>
+    </div>
+
+    <form method="post" asp-controller="Emprestimo" asp-action="Cadastrar">
+        <input type="hidden" asp-for="Id"/>
+        <div class="form-group">
+            <label for="Recebedor" class="text-light">Endereço de email</label>
+            <input type="text" class="form-control" asp-for="Recebedor" id="Recebedor" aria-describedby="Email" />
+            <span class="text-danger" asp-validation-for="Recebedor"></span>
+        </div>
+        <div class="form-group">
+            <label for="Fornecedor" class="text-light">Fornecedor</label>
+            <input type="text" class="form-control" asp-for="Fornecedor" id="Fornecedor" aria-describedby="Quem recebeu?" />
+            <span class="text-danger" asp-validation-for="Fornecedor"></span>
+        </div>
+        <div class="form-group">
+            <label for="Livro" class="text-light">Livro</label>
+            <input type="text" class="form-control" asp-for="LivroEmprestado" id="Livro" aria-describedby="Quem recebeu?" />
+            <span class="text-danger" asp-validation-for="LivroEmprestado"></span>
+        </div>
+        <div class="d-flex gap-5 mt-5">
+            <button type="submit" class="btn btn-sucess w-50">Enviar</button>
+            <a class="btn btn-primary w-50" asp-controller="Emprestimo" asp-action="Index">Voltar</a>
+        </div>
+    </form>
+</div>

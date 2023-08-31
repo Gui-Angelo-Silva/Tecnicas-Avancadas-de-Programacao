@@ -1,0 +1,32 @@
+﻿@model EmprestimoModel
+@{
+	ViewData["title"] = "Cadastro Empréstimo";
+}
+
+<div class="container bg-dark p-5 rounded-5">
+	<div class="mb-5 text-center">
+		<h1 class="text-light">Cadastro de Empréstimos</h1>
+	</div>
+
+	<form>
+		<div class="form-group">
+			<label for="Recebedor" class="text-light">Endereço de email</label>
+			<input type="text" class="form-control" asp-for="Recebedor" id="Recebedor" aria-describedby="emailHelp" placeholder="Quem recebeu o livro?"/>
+			<span class="text-danger" asp-validation-for="Recebedor"></span>
+		</div>
+		<div class="form-group">
+			<label for="Fornecedor" class="text-light">Fornecedor</label>
+			<input type="text" class="form-control" asp-for="Fornecedor" id="Fornecedor" aria-describedby="emailHelp" placeholder="Quem empresta o livro?" />
+			<span class="text-danger" asp-validation-for="Fornecedor"></span>
+		</div>
+		<div class="form-group">
+			<label for="Livro" class="text-light">Livro</label>
+			<input type="text" class="form-control" asp-for="LivroEmprestado" id="Livro" placeholder="Qual o livro?" />
+			<span class="text-danger" asp-validation-for="LivroEmprestado"></span>
+		</div>
+		<div class="d-flex gap-5 mt-5">
+			<button type="submit" class="btn btn-success w-50">Enviar</button>
+			<a class="btn btn-primary w-50" asp-controller="Emprestimo" asp-action="Index">Voltar</a>
+		</div>
+	</form>
+</div>
