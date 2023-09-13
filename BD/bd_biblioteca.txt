@@ -1,0 +1,45 @@
+create table cliente(
+	codigo int identity primary key,
+	nome varchar(50),
+	cpf varchar(20),
+	rg varchar(20)
+);
+
+insert into cliente(nome, cpf, rg) values('Guilherme Silva', '123.456.789-06', '98.765.432-1');
+insert into cliente(nome, cpf, rg) values('Ana Vitoria', '321.654.987-06', '89.567.234-2');
+
+select * from cliente
+
+create table emprestimo(
+	codigo int identity primary key,
+	funcionario varchar(50),
+	data_emprestimo date,
+	data_devolucao date,
+	codigo_cliente int references cliente(codigo)
+);
+
+insert into emprestimo(funcionario, data_emprestimo, data_devolucao, codigo_cliente)
+	values('Gerson', '2021-09-18', '2021-09-20', 1);
+
+select * from emprestimo
+
+create table livro(
+	codigo int identity primary key,
+	nome varchar(50),
+	genero varchar(50),
+	quantidade int
+);
+
+insert into livro(nome, genero, quantidade) values('Senhor dos Anéis - As duas Torres', 'Fantasia', 7), ('It - A coisa', 'Terror', 8);
+
+select * from livro
+
+create table itens_emprestimo_livro(
+	codigo int identity primary key,
+	codigo_emprestimo int references emprestimo(codigo),
+	codigo_livro int references livro(codigo)
+);
+
+insert into itens_emprestimo_livro(codigo_emprestimo, codigo_livro) values (1,2);
+
+select * from itens_emprestimo_livro
