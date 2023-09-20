@@ -1,0 +1,15 @@
+C:\Users\Aluno\Documents\Tecnicas-Avancadas-de-Programacao\ExemploHeranca\bin\Debug\net6.0\ExemploHeranca.exe
+C:\Users\Aluno\Documents\Tecnicas-Avancadas-de-Programacao\ExemploHeranca\bin\Debug\net6.0\ExemploHeranca.deps.json
+C:\Users\Aluno\Documents\Tecnicas-Avancadas-de-Programacao\ExemploHeranca\bin\Debug\net6.0\ExemploHeranca.runtimeconfig.json
+C:\Users\Aluno\Documents\Tecnicas-Avancadas-de-Programacao\ExemploHeranca\bin\Debug\net6.0\ExemploHeranca.dll
+C:\Users\Aluno\Documents\Tecnicas-Avancadas-de-Programacao\ExemploHeranca\bin\Debug\net6.0\ExemploHeranca.pdb
+C:\Users\Aluno\Documents\Tecnicas-Avancadas-de-Programacao\ExemploHeranca\obj\Debug\net6.0\ExemploHeranca.csproj.AssemblyReference.cache
+C:\Users\Aluno\Documents\Tecnicas-Avancadas-de-Programacao\ExemploHeranca\obj\Debug\net6.0\ExemploHeranca.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aluno\Documents\Tecnicas-Avancadas-de-Programacao\ExemploHeranca\obj\Debug\net6.0\ExemploHeranca.AssemblyInfoInputs.cache
+C:\Users\Aluno\Documents\Tecnicas-Avancadas-de-Programacao\ExemploHeranca\obj\Debug\net6.0\ExemploHeranca.AssemblyInfo.cs
+C:\Users\Aluno\Documents\Tecnicas-Avancadas-de-Programacao\ExemploHeranca\obj\Debug\net6.0\ExemploHeranca.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Documents\Tecnicas-Avancadas-de-Programacao\ExemploHeranca\obj\Debug\net6.0\ExemploHeranca.dll
+C:\Users\Aluno\Documents\Tecnicas-Avancadas-de-Programacao\ExemploHeranca\obj\Debug\net6.0\refint\ExemploHeranca.dll
+C:\Users\Aluno\Documents\Tecnicas-Avancadas-de-Programacao\ExemploHeranca\obj\Debug\net6.0\ExemploHeranca.pdb
+C:\Users\Aluno\Documents\Tecnicas-Avancadas-de-Programacao\ExemploHeranca\obj\Debug\net6.0\ExemploHeranca.genruntimeconfig.cache
+C:\Users\Aluno\Documents\Tecnicas-Avancadas-de-Programacao\ExemploHeranca\obj\Debug\net6.0\ref\ExemploHeranca.dll
